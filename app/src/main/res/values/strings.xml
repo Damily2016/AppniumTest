@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DamilyAPP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="nav_ticker">正在截屏...</string>
+    <string name="nav_contentTitle">已捕捉屏幕截图</string>
+    <string name="nav_contentText">点击以查看截屏</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="updateurl">http://localhost:8080/update.xml</string>
+   <string name="addressburl">http://localhost:8080/address.db</string>  
+</resources>

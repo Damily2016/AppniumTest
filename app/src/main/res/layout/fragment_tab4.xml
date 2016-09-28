@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/rv_app_manager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="1dp">
+
+</android.support.v7.widget.RecyclerView>
+
+<LinearLayout
+    android:id="@+id/ll_app_loading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="invisible"
+    >
+    <ProgressBar
+        android:id="@+id/pd_app_manager"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="正在加载应用程序"
+        />
+</LinearLayout>
+
+</FrameLayout>
