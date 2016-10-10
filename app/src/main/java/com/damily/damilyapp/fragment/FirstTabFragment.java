@@ -29,7 +29,6 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
-
 /**
  * Created by Dandan.Cao on 2016/9/13.
  */
@@ -43,7 +42,6 @@ public class FirstTabFragment extends Fragment implements View.OnClickListener {
     File appDir;
     File file;
     String fileName;
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

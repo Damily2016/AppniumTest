@@ -26,12 +26,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>{
     public void onBindViewHolder(ViewHolder holder, final int position) {
         holder.textView.setText(mDataset.get(position));
     }
-    private void removeData(int position) {
-        mDataset.remove(position);
-        notifyItemRemoved(position);
-
-              }
-
 
     @Override
     public int getItemCount() {

@@ -70,6 +70,4 @@ public class FourthTabFragment extends Fragment {
         }.start();
         return view;
     }
-
-
 }

@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
 <android.support.v7.widget.RecyclerView
     android:id="@+id/rv_app_manager"
     android:layout_width="match_parent"
@@ -29,5 +30,4 @@
         android:text="正在加载应用程序"
         />
 </LinearLayout>
-
 </FrameLayout>
